@@ -1,11 +1,17 @@
 import React from 'react';
 import Button, { ButtonType, ButtonSize } from './components/Button';
+import Menu from './components/Menu/menu';
+import MenuItem from './components/Menu/menuItem';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <Menu defaultIndex={0}>
+        <MenuItem index={0}>aaa</MenuItem>
+        <MenuItem index={1}>bbb</MenuItem>
+      </Menu>
+      {/* <div>
         <Button onClick={() => alert(1)}>按钮</Button>
       </div>
       <div>
@@ -22,7 +28,7 @@ function App() {
       </div>
       <div>
         <Button btnType={ButtonType.Link} disabled href="www.baidu.com">按钮</Button>
-      </div>
+      </div> */}
     </div>
   );
 }
