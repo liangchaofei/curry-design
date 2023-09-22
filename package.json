@@ -22,12 +22,15 @@
     "eject": "react-scripts eject",
     "lint": "npx eslint .",
     "format": " prettier --write 'src/**/*.+(js|ts|jsx|tsx)' ",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:storybook/recommended"
     ]
   },
   "browserslist": {
@@ -45,8 +48,18 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "@storybook/addon-essentials": "^7.4.3",
+    "@storybook/addon-interactions": "^7.4.3",
+    "@storybook/addon-links": "^7.4.3",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.4.3",
+    "@storybook/preset-create-react-app": "^7.4.3",
+    "@storybook/react": "^7.4.3",
+    "@storybook/react-webpack5": "^7.4.3",
+    "@storybook/testing-library": "^0.2.1",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
+    "babel-plugin-named-exports-order": "^0.0.2",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard-with-typescript": "^39.0.0",
@@ -55,9 +68,13 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-storybook": "^0.6.14",
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
+    "prop-types": "^15.8.1",
     "recommended@latest": "link:eslint-plugin-plugin:prettier/recommended@latest",
-    "typescript": "^4.9.5"
+    "storybook": "^7.4.3",
+    "typescript": "^4.9.5",
+    "webpack": "^5.88.2"
   }
 }
