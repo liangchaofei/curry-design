@@ -1,0 +1,20 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true // 保存后字段格式化
+    },
+    // 检查识别不出来的单词
+    "cSpell.words": [
+        "ahooks",
+        "antd",
+        "Appstore",
+        "clonedeep",
+        "craco",
+        "downarrow",
+        "immer",
+        "mockjs",
+        "Popconfirm",
+        "qrcode",
+        "reduxjs",
+        "uparrow"
+    ]
+}
