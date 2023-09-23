@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.53",
@@ -12,6 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -47,6 +49,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "@storybook/addon-actions": "^7.4.4",
     "@storybook/addon-essentials": "^7.4.3",
     "@storybook/addon-interactions": "^7.4.3",
     "@storybook/addon-links": "^7.4.3",
@@ -58,6 +61,7 @@
     "@storybook/testing-library": "^0.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
+    "@types/react-transition-group": "^4.4.6",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "babel-plugin-named-exports-order": "^0.0.2",
