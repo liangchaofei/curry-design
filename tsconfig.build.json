@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "outDir": "build",
+        "outDir": "dist",
         "module": "ESNext", // 输出的类型
         "target": "ES5", 
         "declaration": true, // 生产.d.ts
