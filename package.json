@@ -18,14 +18,17 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "pnpm clean && pnpm build-ts && pnpm build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "npx eslint .",
     "format": " prettier --write 'src/**/*.+(js|ts|jsx|tsx)' ",
     "prepare": "husky install",
     "sb": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-ts": "tsc -p tsconfig.build.json",
+    "build-css": "node-sass ./src/styles/index.scss ./build/index.css",
+    "clean": "rimraf ./build"
   },
   "eslintConfig": {
     "extends": [
@@ -75,6 +78,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-storybook": "^0.6.14",
     "husky": "^8.0.3",
+    "node-sass": "^9.0.0",
     "prettier": "^3.0.3",
     "prop-types": "^15.8.1",
     "recommended@latest": "link:eslint-plugin-plugin:prettier/recommended@latest",
