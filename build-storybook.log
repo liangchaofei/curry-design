@@ -1,15 +1,15 @@
 
 > curry-design@0.1.0 build-storybook /Users/liangchaofei/Desktop/github/curry-design
-> storybook build "--output-dir" "/var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--13353-5AiVVCBu2M1s"
+> storybook build "--output-dir" "/var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--97318-rJKrU7YQ62SA"
 
 @storybook/cli v7.4.3
 
-info => Cleaning outputDir: /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--13353-5AiVVCBu2M1s
+info => Cleaning outputDir: /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--97318-rJKrU7YQ62SA
 info => Loading presets
 info => Building manager..
-info => Manager built (173 ms)
+info => Manager built (170 ms)
 info => Compiling preview..
-info => Copying static files: /Users/liangchaofei/Desktop/github/curry-design/node_modules/.pnpm/@storybook+manager@7.4.3/node_modules/@storybook/manager/static at /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--13353-5AiVVCBu2M1s/sb-common-assets
+info => Copying static files: /Users/liangchaofei/Desktop/github/curry-design/node_modules/.pnpm/@storybook+manager@7.4.3/node_modules/@storybook/manager/static at /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--97318-rJKrU7YQ62SA/sb-common-assets
 WARN No story files found for the specified pattern: src/**/*.mdx
 info Addon-docs: using MDX2
 info => Loading Webpack configuration from `node_modules/react-scripts`
@@ -127,17 +127,17 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.22.20_webpack@5.88.2/node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/source-map-loader@3.0.2_webpack@5.88.2/node_modules/source-map-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building 0/1 entries 8/21 dependencies 4/8 modules
-info => Copying static files: /Users/liangchaofei/Desktop/github/curry-design/public at /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--13353-5AiVVCBu2M1s/
+info => Copying static files: /Users/liangchaofei/Desktop/github/curry-design/public at /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--97318-rJKrU7YQ62SA/
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/unplugin@1.5.0/node_modules/unplugin/dist/webpack/loaders/load.js
-<s> [webpack.Progress] 10% building 0/1 entries 22/26 dependencies 4/20 modules
+<s> [webpack.Progress] 10% building 0/1 entries 21/23 dependencies 4/19 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/mini-css-extract-plugin@2.7.6_webpack@5.88.2/node_modules/mini-css-extract-plugin/dist/loader.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/css-loader@6.8.1_webpack@5.88.2/node_modules/css-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.4.30_webpack@5.88.2/node_modules/postcss-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/resolve-url-loader@4.0.0/node_modules/resolve-url-loader/index.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/.pnpm/sass-loader@12.6.0_node-sass@9.0.0_sass@1.68.0_webpack@5.88.2/node_modules/sass-loader/dist/cjs.js
-<s> [webpack.Progress] 10% building 0/1 entries 37/60 dependencies 8/28 modules
-<s> [webpack.Progress] 10% building 0/1 entries 49/72 dependencies 8/38 modules
-<s> [webpack.Progress] 18% building 0/1 entries 575/603 dependencies 160/300 modules
+<s> [webpack.Progress] 10% building 0/1 entries 37/66 dependencies 8/28 modules
+<s> [webpack.Progress] 10% building 0/1 entries 59/100 dependencies 8/43 modules
+<s> [webpack.Progress] 18% building 0/1 entries 566/600 dependencies 157/298 modules
 <s> [webpack.Progress] 64% building 1/1 entries 1428/1428 dependencies 566/566 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
@@ -322,94 +322,40 @@ info => Copying static files: /Users/liangchaofei/Desktop/github/curry-design/pu
 <s> [webpack.Progress] 93% sealing recording
 <s> [webpack.Progress] 94% sealing after seal
 <s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
 <s> [webpack.Progress] 99% done plugins ForkTsCheckerWebpackPlugin
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% 
 
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-=> Failed to build the preview
-TS2339: Property 'toBeInTheDocument' does not exist on type 'JestMatchers<HTMLButtonElement>'.
-    21 |     const wrapper = render(<Button {...defaultProps}>按钮</Button>);
-    22 |     const element = wrapper.getByText("按钮") as HTMLButtonElement;
-  > 23 |     expect(element).toBeInTheDocument();
-       |                     ^^^^^^^^^^^^^^^^^
-    24 |     expect(element.tagName).toEqual("BUTTON");
-    25 |     expect(element).toHaveClass("btn btn-default");
-    26 |     expect(element.disabled).toBeFalsy();
-TS2339: Property 'toHaveClass' does not exist on type 'JestMatchers<HTMLButtonElement>'.
-    23 |     expect(element).toBeInTheDocument();
-    24 |     expect(element.tagName).toEqual("BUTTON");
-  > 25 |     expect(element).toHaveClass("btn btn-default");
-       |                     ^^^^^^^^^^^
-    26 |     expect(element.disabled).toBeFalsy();
-    27 |     fireEvent.click(element);
-    28 |     expect(defaultProps.onClick).toHaveBeenCalled();
-TS2339: Property 'toBeInTheDocument' does not exist on type 'JestMatchers<HTMLElement>'.
-    32 |     const wrapper = render(<Button {...testProps}>按钮</Button>);
-    33 |     const element = wrapper.getByText("按钮");
-  > 34 |     expect(element).toBeInTheDocument();
-       |                     ^^^^^^^^^^^^^^^^^
-    35 |     expect(element).toHaveClass("btn-primary btn-lg klass");
-    36 |   });
-    37 |   it("should render a link when btnType equals link and href is provided", () => {
-TS2339: Property 'toHaveClass' does not exist on type 'JestMatchers<HTMLElement>'.
-    33 |     const element = wrapper.getByText("按钮");
-    34 |     expect(element).toBeInTheDocument();
-  > 35 |     expect(element).toHaveClass("btn-primary btn-lg klass");
-       |                     ^^^^^^^^^^^
-    36 |   });
-    37 |   it("should render a link when btnType equals link and href is provided", () => {
-    38 |     const wrapper = render(
-TS2339: Property 'toBeInTheDocument' does not exist on type 'JestMatchers<HTMLElement>'.
-    42 |     );
-    43 |     const element = wrapper.getByText("Link");
-  > 44 |     expect(element).toBeInTheDocument();
-       |                     ^^^^^^^^^^^^^^^^^
-    45 |     expect(element.tagName).toEqual("A");
-    46 |     expect(element).toHaveClass("btn btn-link");
-    47 |   });
-TS2339: Property 'toHaveClass' does not exist on type 'JestMatchers<HTMLElement>'.
-    44 |     expect(element).toBeInTheDocument();
-    45 |     expect(element.tagName).toEqual("A");
-  > 46 |     expect(element).toHaveClass("btn btn-link");
-       |                     ^^^^^^^^^^^
-    47 |   });
-    48 |   it("should render disabled button when disabled set to true", () => {
-    49 |     const wrapper = render(<Button {...disabledProps}>按钮</Button>);
-TS2339: Property 'toBeInTheDocument' does not exist on type 'JestMatchers<HTMLButtonElement>'.
-    49 |     const wrapper = render(<Button {...disabledProps}>按钮</Button>);
-    50 |     const element = wrapper.getByText("按钮") as HTMLButtonElement;
-  > 51 |     expect(element).toBeInTheDocument();
-       |                     ^^^^^^^^^^^^^^^^^
-    52 |     expect(element.disabled).toBeTruthy();
-    53 |     fireEvent.click(element);
-    54 |     expect(disabledProps.onClick).not.toHaveBeenCalled();
+info => Preview built (8.81 s)
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   189.a6042c9b.iframe.bundle.js (758 KiB)
+WARN   411.6c250dcf.iframe.bundle.js (583 KiB)
+WARN   215.8e0c6ddc.iframe.bundle.js (767 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (793 KiB)
+WARN       runtime~main.d6164bae.iframe.bundle.js
+WARN       215.8e0c6ddc.iframe.bundle.js
+WARN       main.9d05d32f.iframe.bundle.js
+WARN       static/css/main.4ea914c5.css
+WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-Error: => Webpack failed, learn more with --debug-webpack
-    at ./node_modules/.pnpm/@storybook+builder-webpack5@7.4.3_@types+react-dom@18.2.7_@types+react@18.2.22_esbuild@0.18.2_ptqq5yky3mxjiojokfwd6zycwq/node_modules/@storybook/builder-webpack5/dist/index.js:1:7628
-    at ./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/HookWebpackError.js:68:3
-    at Hook.eval [as callAsync] (eval at create (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:11:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/Hook.js:18:14)
-    at Cache.shutdown (./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Cache.js:150:23)
-    at ./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:1229:15
-    at Hook.eval [as callAsync] (eval at create (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/Hook.js:18:14)
-    at Compiler.close (./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:1222:23)
-    at ./node_modules/.pnpm/@storybook+builder-webpack5@7.4.3_@types+react-dom@18.2.7_@types+react@18.2.22_esbuild@0.18.2_ptqq5yky3mxjiojokfwd6zycwq/node_modules/@storybook/builder-webpack5/dist/index.js:1:7580
-    at finalCallback (./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:441:32)
-    at ./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:458:13
-    at Hook.eval [as callAsync] (eval at create (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:35:1)
-    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/Hook.js:18:14)
-    at onCompiled (./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:456:21)
-    at ./node_modules/.pnpm/webpack@5.88.2_@swc+core@1.3.87_esbuild@0.18.20/node_modules/webpack/lib/Compiler.js:1200:17
-    at eval (eval at create (./node_modules/.pnpm/tapable@2.2.1/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:14:1)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m ELIFECYCLE  Command failed.
+info => Output directory: /var/folders/mf/jy1z2f_16dgdgcw5bwlgv_dc0000gn/T/chromatic--97318-rJKrU7YQ62SA
