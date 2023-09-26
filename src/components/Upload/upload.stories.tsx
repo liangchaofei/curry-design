@@ -47,8 +47,11 @@ export const Default: Story = {
       data={{ key: 1 }}
       headers={{ "X-Author": "curry" }}
       accept=".jpg"
+      drag
       // beforeUpload={checkFileSize}
       // beforeUpload={filePromise}
-    />
+    >
+      请拖动上传
+    </Upload>
   ),
 };
