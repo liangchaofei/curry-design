@@ -37,16 +37,17 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    action: "https://www.mocky.io/v2/5cc8019d300000980a055e76",
+    action: "http://demo5298773.mockable.io/api/curry-design/upload",
   },
   render: () => (
     <Upload
-      action="https://www.mocky.io/v2/5cc8019d300000980a055e76"
+      action="http://demo5298773.mockable.io/api/curry-design/upload"
       onChange={action("change")}
       name="file-name"
+      // withCredentials={true}
       data={{ key: 1 }}
       headers={{ "X-Author": "curry" }}
-      accept=".jpg"
+      // accept=".jpg"
       drag
       // beforeUpload={checkFileSize}
       // beforeUpload={filePromise}

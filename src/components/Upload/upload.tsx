@@ -202,22 +202,6 @@ export const Upload: FC<UploadProps> = props => {
 
       <UploadList fileList={fileList} onRemove={handleRemove} />
     </div>
-    // <div>
-    //   <Button onClick={handleClick}>上传</Button>
-    //   <input
-    //     onChange={handleFileChange}
-    //     ref={fileInput}
-    //     type="file"
-    //     className="curry-file-input"
-    //     style={{ display: "none" }}
-    //     accept={accept}
-    //     multiple={multiple}
-    //   />
-    //   <UploadList
-    //     fileList={fileList}
-    //     onRemove={handleRemove}
-    //   />
-    // </div>
   );
 };
 
